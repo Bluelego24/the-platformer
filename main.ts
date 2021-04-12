@@ -18,9 +18,18 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`tile2`, function (sprite, loc
     pause(100)
     Start()
 })
+scene.onOverlapTile(SpriteKind.Player, assets.tile`Temporary asset0`, function (sprite, location) {
+    if (controller.A.isPressed()) {
+        mySprite.vy = -150
+    }
+})
+scene.onOverlapTile(SpriteKind.Player, assets.tile`Temporary asset1`, function (sprite, location) {
+    if (controller.A.isPressed()) {
+        mySprite.vy = -150
+    }
+})
 let mySprite: Sprite = null
 scene.setBackgroundColor(8)
-scene.setBackgroundImage(assets.image`myImage1`)
 tiles.setTilemap(tilemap`level4`)
 mySprite = sprites.create(assets.image`myImage`, SpriteKind.Player)
 tiles.placeOnTile(mySprite, tiles.getTileLocation(1, 14))
