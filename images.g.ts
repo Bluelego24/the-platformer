@@ -95,6 +95,25 @@ f 1 1 1 1 1 6 1 1 1 1 1 1 1 1 f
 f 1 1 1 1 1 7 1 1 1 1 1 1 1 1 f 
 f f f 6 f f f f f f f f f f f f 
 `;
+            case "image5":
+            case "myImage3":return img`
+f f f f f f f f f f f f f f f f 
+f 2 2 2 2 2 2 2 4 4 4 4 4 4 4 f 
+f 2 2 2 2 2 2 2 2 2 2 4 4 4 4 f 
+f 2 2 2 2 2 2 2 2 2 2 4 4 4 4 f 
+f 2 2 2 2 2 2 2 2 2 2 2 2 4 4 f 
+f 2 2 2 2 2 2 2 2 2 2 2 2 4 4 f 
+f 2 2 f 1 2 2 2 2 2 f 1 2 4 4 f 
+f 2 2 2 2 2 f 2 f 2 2 2 2 2 4 f 
+f 2 2 2 2 2 f f f 2 2 2 2 2 4 f 
+f 2 2 2 2 2 2 2 2 2 2 2 2 2 4 f 
+f 5 2 2 2 2 2 2 2 2 2 2 2 2 4 f 
+f 5 5 2 2 2 2 2 2 2 2 2 2 2 2 f 
+f 5 5 5 2 2 2 2 2 2 2 2 2 2 2 f 
+f 5 5 5 2 2 2 2 2 2 2 2 2 2 2 f 
+f 5 5 5 5 5 5 2 2 2 2 2 2 2 2 f 
+f f f f f f f f f f f f f f f f 
+`;
         }
         return null;
     })
