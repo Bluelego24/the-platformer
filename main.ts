@@ -1,5 +1,7 @@
 namespace SpriteKind {
     export const wall = SpriteKind.create()
+    export const NPC1 = SpriteKind.create()
+    export const NPC2 = SpriteKind.create()
 }
 function Start () {
     mySprite = sprites.create(assets.image`myImage`, SpriteKind.Player)
@@ -8,6 +10,21 @@ function Start () {
     mySprite.ay = 480
     tiles.placeOnTile(mySprite, tiles.getTileLocation(1, 14))
 }
+sprites.onOverlap(SpriteKind.Player, SpriteKind.NPC2, function (sprite, otherSprite) {
+    let level = 0
+    if (level == 1 && TT2 == 0) {
+        game.showLongText("*Slime bounces to a stop* Hello there!!!", DialogLayout.Bottom)
+        TT2 = 1
+    } else if (level == 2 && TT2 == 1) {
+        game.showLongText("*Slime slams into ground hard* HELLO there!!!", DialogLayout.Bottom)
+        TT2 = 2
+    } else if (level == 3 && TT2 == 2) {
+        game.showLongText("*Slime hit the ground too hard *", DialogLayout.Bottom)
+        TT2 = 3
+    } else {
+    	
+    }
+})
 scene.onOverlapTile(SpriteKind.Player, assets.tile`tile5`, function (sprite, location) {
     if (controller.A.isPressed()) {
         mySprite.vy = -150
@@ -23,14 +40,12 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`Temporary asset0`, function (
         mySprite.vy = -150
     }
 })
-sprites.onOverlap(SpriteKind.Player, SpriteKind.Player, function (sprite, otherSprite) {
-	
-})
 scene.onOverlapTile(SpriteKind.Player, assets.tile`Temporary asset1`, function (sprite, location) {
     if (controller.A.isPressed()) {
         mySprite.vy = -150
     }
 })
+let TT2 = 0
 let mySprite: Sprite = null
 scene.setBackgroundColor(8)
 tiles.setTilemap(tilemap`level4`)
