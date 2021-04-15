@@ -14,15 +14,25 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "myImage0"
     },
-    "image4": {
-        "data": "hwQQABAAAABx9/93/////29mcRFhERHxfxF2FxFxFvF2cRdhFxERYRdnERJxFxHxF2cWEhEREfF/FhEREXFh9x9mEREfERHxHxcXER8REfEfF2EXHxcR8R9mYXIRERHxFnEREhYREfEfYRERERER8X8RERERERHxHxFxFhEREfH//////////w==",
-        "mimeType": "image/x-mkcd-f4",
-        "displayName": "myImage2"
-    },
     "image5": {
         "data": "hwQQABAAAAD//////////y8iIiIiVVX1LyIiIiJSVfUvIiIvIiJV9S8iIiEiIiL1LyIiIiIiIvUvIiLyLyIi9S8iIiIvIiLyTyIi8i8iIvJPIiIiIiIi8k8iIi8iIiLyT0QiISIiIvJPRCIiIiIi8k9ERCQiIiLyT0REREQkIvL//////////w==",
         "mimeType": "image/x-mkcd-f4",
         "displayName": "myImage3"
+    },
+    "image4": {
+        "data": "hwQQABAAAABx9/93/////29mcRFhERHxfx12FxFxFvF2cRdhFxERYRdnERJxFxHxF2cWEhEREfF/FhEREXFh9x9mEREfERHxHxcXER8REfEfF2EXHxcR8R9mYXIRERH9FnEREhYREf0fYRERERHR/X8REREREd39HxFxFhHd3f3//////////w==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "myImage2"
+    },
+    "image6": {
+        "data": "hwQQABAAAAD//////////x8RcRYR3d39fxERERER3f0fYRERERHR/RZxERIWERH9H2ZhchEREf0fF2EXHxcR8R8XFxEfERHxH2YRER8REfF/FhEREXFh9xdnFhIRERHxF2cREnEXEfF2cRdhFxERYX8ddhcRcRbxb2ZxEWEREfFx9/93/////w==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "myImage4"
+    },
+    "image7": {
+        "data": "hwQQABAAAAD//////////393d3dmZmb2f3d3d3ZmZvZ/d3d2Z2Zm9n8XEXdnZmb2fxfxd2dmZvZ/d3f3b2dm9n93d3d/Zmb2f3d3d39mZvZ/d3d3f2Zm9n8X8XdnZmb2fxcRd2dmZvZ/d3d3Z2Zm9n93d3dmZmb2f3d3d3ZmZvb//////////w==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "myImage5"
     },
     "*": {
         "mimeType": "image/x-mkcd-f4",

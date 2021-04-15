@@ -76,25 +76,6 @@ f 2 2 2 2 2 6 2 2 2 2 2 5 5 5 f
 f 2 2 2 2 2 7 2 2 5 5 5 5 5 5 f 
 f f f 6 f f f f f f f f f f f f 
 `;
-            case "image4":
-            case "myImage2":return img`
-1 f f 6 7 7 f f f f f 6 f f f f 
-7 6 7 7 1 1 7 1 1 1 1 1 1 7 1 f 
-7 6 1 1 7 7 6 6 7 7 6 1 1 1 1 f 
-f 6 1 7 6 6 1 6 1 1 6 7 6 1 1 f 
-f 1 6 7 1 6 1 1 7 1 1 1 1 1 1 f 
-f 7 7 1 1 1 1 1 1 6 6 1 1 1 7 f 
-7 1 7 1 2 2 1 1 1 7 2 2 1 1 6 f 
-7 1 1 6 1 1 1 1 1 1 7 1 1 1 1 f 
-f 1 1 7 1 1 1 f f f 1 6 1 1 1 f 
-f 6 1 1 7 1 1 1 1 1 1 1 1 1 1 f 
-f 1 1 1 7 1 1 1 1 7 1 1 1 1 1 f 
-f 1 7 1 1 1 7 1 1 1 1 1 1 1 1 f 
-f 1 6 1 1 1 1 1 1 1 1 1 1 1 1 f 
-f 1 1 1 1 1 6 1 1 1 1 1 1 1 1 f 
-f 1 1 1 1 1 7 1 1 1 1 1 1 1 1 f 
-f f f 6 f f f f f f f f f f f f 
-`;
             case "image5":
             case "myImage3":return img`
 f f f f f f f f f f f f f f f f 
@@ -112,6 +93,63 @@ f 5 5 2 2 2 2 2 2 2 2 2 2 2 2 f
 f 5 5 5 2 2 2 2 2 2 2 2 2 2 2 f 
 f 5 5 5 2 2 2 2 2 2 2 2 2 2 2 f 
 f 5 5 5 5 5 5 2 2 2 2 2 2 2 2 f 
+f f f f f f f f f f f f f f f f 
+`;
+            case "image4":
+            case "myImage2":return img`
+1 f f 6 7 7 f f f f f 6 f f f f 
+7 6 7 7 1 1 7 1 1 1 1 1 1 7 1 f 
+7 6 d 1 7 7 6 6 7 7 6 1 1 1 1 f 
+f 6 1 7 6 6 1 6 1 1 6 7 6 1 1 f 
+f 1 6 7 1 6 1 1 7 1 1 1 1 1 1 f 
+f 7 7 1 1 1 1 1 1 6 6 1 1 1 7 f 
+7 1 7 1 2 2 1 1 1 7 2 2 1 1 6 f 
+7 1 1 6 1 1 1 1 1 1 7 1 1 1 1 f 
+f 1 1 7 1 1 1 f f f 1 6 1 1 1 f 
+f 6 1 1 7 1 1 1 1 1 1 1 1 1 1 f 
+f 1 1 1 7 1 1 1 1 7 1 1 1 1 d f 
+f 1 7 1 1 1 7 1 1 1 1 1 1 1 d f 
+f 1 6 1 1 1 1 1 1 1 1 1 1 d d f 
+f 1 1 1 1 1 6 1 1 1 1 1 d d d f 
+f 1 1 1 1 1 7 1 1 1 d d d d d f 
+f f f 6 f f f f f f f f f f f f 
+`;
+            case "image6":
+            case "myImage4":return img`
+f f f f 6 f f f f f 7 7 6 f f 1 
+f 1 7 1 1 1 1 1 1 7 1 1 7 7 6 7 
+f 1 1 1 1 6 7 7 6 6 7 7 1 d 6 7 
+f 1 1 6 7 6 1 1 6 1 6 6 7 1 6 f 
+f 1 1 1 1 1 1 7 1 1 6 1 7 6 1 f 
+f 7 1 1 1 6 6 1 1 1 1 1 1 7 7 f 
+f 6 1 1 2 2 7 1 1 1 2 2 1 7 1 7 
+f 1 1 1 1 7 1 1 1 1 1 1 6 1 1 7 
+f 1 1 1 6 1 f f f 1 1 1 7 1 1 f 
+f 1 1 1 1 1 1 1 1 1 1 7 1 1 6 f 
+f d 1 1 1 1 7 1 1 1 1 7 1 1 1 f 
+f d 1 1 1 1 1 1 1 7 1 1 1 7 1 f 
+f d d 1 1 1 1 1 1 1 1 1 1 6 1 f 
+f d d d 1 1 1 1 1 6 1 1 1 1 1 f 
+f d d d d d 1 1 1 7 1 1 1 1 1 f 
+f f f f f f f f f f f f 6 f f f 
+`;
+            case "image7":
+            case "myImage5":return img`
+f f f f f f f f f f f f f f f f 
+f 7 7 7 7 7 7 7 7 7 7 7 7 7 7 f 
+f 7 7 7 7 7 7 7 7 7 7 7 7 7 7 f 
+f 7 7 7 1 1 7 7 7 7 1 1 7 7 7 f 
+f 7 7 7 1 1 7 7 7 7 1 1 7 7 7 f 
+f 7 7 7 1 f 7 7 7 7 f 1 7 7 7 f 
+f 7 7 6 7 7 7 7 7 7 7 7 7 7 7 f 
+f 7 7 7 7 7 f 7 7 7 7 7 7 7 7 f 
+f 6 6 7 7 7 f f f f 7 7 7 6 6 f 
+f 6 7 6 6 6 6 7 7 7 6 6 6 6 7 f 
+f 6 6 6 6 6 7 6 6 6 6 6 6 6 6 f 
+f 6 6 6 6 6 6 6 6 6 6 6 6 6 6 f 
+f 6 6 6 6 6 6 6 6 6 6 6 6 6 6 f 
+f 6 6 6 6 6 6 6 6 6 6 6 6 6 6 f 
+f 6 6 6 6 6 6 6 6 6 6 6 6 6 6 f 
 f f f f f f f f f f f f f f f f 
 `;
         }
